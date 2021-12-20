@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "packages/project1/*",
+    "packages/project2/*",
+    "packages/project3/*"
+  ]
+}
